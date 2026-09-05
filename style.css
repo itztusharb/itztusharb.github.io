@@ -1,0 +1,734 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background: #0f1c36;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    display: flex;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin: 0 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header.sticky {
+    background: rgba(0,0,0);
+    transition: background 0.3s;
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+/* Hero Section */
+.services {
+    background: linear-gradient(135deg, #0f1c36, #1c3358);
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    margin-top: 60px;
+    height: 70vh;
+}
+
+.services p {
+    font-size: 100px;
+    margin:  100;
+    font-weight: 800;
+}
+.services p{
+    text-align: left;
+}
+.services h2{
+    text-align: left;
+    margin: -100 100 10;
+}
+
+.services h2 {
+    font-size: 32px;
+
+}
+
+.chartstart {
+    margin-top: 30px;
+    width: 30%;
+
+    text-align: right;
+    right: 100px;
+}
+div.chart{
+    text-align: right;
+    width: 100%;
+    position: relative;
+    transform: translate(0%,-90%);
+    
+}
+
+/* Who We Are Section */
+.who {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/laptopman.jpg);
+    opacity: 1.0;
+    background-size: cover;
+    background-position: center;
+}
+
+.who h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: #ffa200;
+}
+
+.who p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.who img {
+    margin: 20px;
+    max-width: 80px;
+    background-color: white;
+}
+.who h2{
+    color: #fff;
+}
+
+
+/* Our Services Section */
+.ourservices {
+    padding: 20px 10px;
+    background-color: rgb(12, 43, 64);
+    text-align: center;
+}
+
+.ourservices h1 {
+    font-size: 100px;
+    margin-bottom: 10px;
+    color: #ffa200;
+}
+
+.ourservices h2 {
+    font-size: 28px;
+    margin: 20px;
+}
+
+.ourservices img {
+    margin-top: 30px;
+}
+img.bulb{
+    max-width: 150px;
+}
+img.rocket{
+    max-width: 170px;
+}
+img.chart2{
+    max-width: 200px;
+}
+
+.ourservices .para1,
+.ourservices .para2,
+.ourservices .para3 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+.innovatebox{
+    display: inline-table;
+    vertical-align: top;
+    margin: 20px;
+    width: 30%;
+}
+.integratebox{   
+    display: inline-table;
+    vertical-align: top;
+    margin: 20px;
+    width: 30%;
+}
+.elevatebox{
+    display: inline-table;
+    vertical-align: top;
+    margin: 20px;
+    width: 30%;
+}
+
+
+/* Sections for Innovate, Integrate, Elevate */
+.elevatep {
+    padding: 0px;
+    background-color: rgba(12, 43, 64, 0.95);
+    text-align: center;
+}
+.innovatep{
+    padding: 0px;
+    background-color: rgba(12, 43, 64, 0.95);
+    text-align: center;
+}
+
+.innovatediv{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+.innovatep img{
+    width: 15%;
+    margin-right: 100px;
+
+}
+.innovatediv p{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.elevatediv{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.elevatep img{
+    width: 15%;
+    margin-right: 100px;
+
+}
+.elevatediv p{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.integrateabt{
+    padding: 0px;
+    background-color: rgba(12, 43, 64);
+    text-align: center;
+}
+
+.integratediv{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.integrateabt img{
+    width: 15%;
+    margin-right: 10px;
+    padding-left: 100px;
+
+}
+.integratediv p{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: #ffa200;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Industry Section */
+.industry {
+    padding: 60px 20px;
+    background-color: rgba(12, 43, 64);
+    text-align: center;
+}
+
+.industry h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.industry img {
+    max-width: 100px;
+    margin: 20px;
+}
+
+.industry p {
+    font-size: 25px;
+    color: white;
+}
+.inpara{
+    width: 80%;
+    text-align: center;
+    transform: translate(10%);
+    bottom: 25px;
+    position: relative;
+}
+
+.con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8{
+    width: 25%;
+}
+.con1 img, .con2 img, .con3 img, .con4 img, .con5 img, .con6 img, .con7 img, .con8 img{
+    width: 100%;
+}
+
+.pics{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+/* Why Us Section */
+.whyus {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.whyus h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.whyus .global, .whyus .value, .whyus .flexible {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.whyus img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.whyus p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Footer Section */
+.end {
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/disc.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    background-position: bottom;
+    background-size:cover;
+}
+
+.end h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.end p {
+    font-size: 30px;
+    line-height: 1.8;
+}
+
+.end img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 1200px) {
+    .whyus .global, .whyus .value, .whyus .flexible {
+        width: 45%;
+        margin-bottom: 40px;
+    }
+
+    header ul li {
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Hero Section */
+.services {
+    background: linear-gradient(135deg, #0f1c36, #1c3358);
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.services p {
+    font-size: 80px;
+    margin: -20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin: 20px 0 0;
+    display: inline-block;
+}
+
+.chartstart {
+    margin-top: 30px;
+    max-width: 100%;
+}
+.chartstart {
+    margin-top: 30px;
+    width: 30%;
+    position: static;
+    text-align: center;
+    top: 0px;
+
+}
+div.chart{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    transform: translate(0%, 0%);
+}
+
+    header ul {
+        display: flex;
+    }
+
+
+
+    .services h2 {
+        font-size: 24px;
+    }
+
+    .who h1, .industry h1, .whyus h1, .end h1 {
+        font-size: 28px;
+    }
+    .ourservices h1{
+        font-size: 60px;
+    }
+
+    .who p, .ourservices p, .industry p, .whyus p, .end p {
+        font-size: 16px;
+    }
+
+    .ourservices h2 {
+        font-size: 24px;
+    }
+
+    .ourservices img, .industry img, .whyus img {
+        max-width: 80px;
+    }
+
+ 
+    .elevatediv{
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .elevatep img{
+        width: 15%;
+        margin-right: 10px;
+    
+    }
+    .elevatediv p{
+        color: white;
+        text-align: left;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .integrateabt h1{
+        text-align: center;
+    }
+
+    .integratediv{
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .integrateabt img{
+        width: 20%;
+        margin-right: 10px;
+        padding-left: 0px;
+    
+    }
+
+    .integratediv p{
+        color: white;
+        text-align: left;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .innovatediv{
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 30px;
+    }
+    .innovatep img{
+        width: 15%;
+        margin-right: 10px;
+    
+    }
+    .innovatediv p{
+        color: white;
+        text-align: left;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    /* Hero Section */
+.services {
+    background: linear-gradient(135deg, #0f1c36, #1c3358);
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.services p {
+    font-size: 50px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+
+.services h2 {
+    font-size: 18px;
+    margin: 20px 0 0;
+    display: inline-block;
+}
+
+.chartstart {
+    margin-top: 30px;
+    max-width: 100%;
+}
+.chartstart {
+    margin-top: 30px;
+    width: 71%;
+    position: static;
+    text-align: center;
+
+
+}
+div.chart{
+    text-align: center;
+    width: 100%;
+    position: relative;  
+    top: 30px;
+}
+    header{
+        padding: 0 0;
+    }
+    img.logoh{
+        width: 60px;
+    }
+    header ul{
+        display: flex;
+    }
+    header ul li a{
+        font-size: 8px;
+    }
+    header ul li{
+        margin: 0 6px;
+    }
+
+
+
+    .who h1, .industry h1, .whyus h1, .end h1 {
+        font-size: 24px;
+    }
+    .ourservices h1{
+        font-size: 40px;
+    }
+
+    .ourservices h2 {
+        font-size: 20px;
+    }
+
+    .who p, .ourservices p, .industry p, .whyus p, .end p {
+        font-size: 14px;
+    }
+
+.industry img, .whyus img {
+        max-width: 60px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+
+    .innovatebox{
+        display: inline-table;
+        vertical-align: top;
+        margin: 20px;
+        width: 80%;
+    }
+    .integratebox{   
+        display: inline-table;
+        vertical-align: top;
+        margin: 20px;
+        width: 80%;
+    }
+    .elevatebox{
+        display: inline-table;
+        vertical-align: top;
+        margin: 20px;
+        width: 80%;
+    }
+
+    /* Who We Are Section */
+.who {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.who h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #ffa200;
+}
+
+.who p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.who img {
+    margin: 20px;
+    max-width: 80px;
+    background-color: white;
+}
+
+
+.con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8{
+    width: 25%;
+}
+.con1 img, .con2 img, .con3 img, .con4 img, .con5 img, .con6 img, .con7 img, .con8 img{
+    width: 40%;
+}
+.con1 p, .con2 p, .con3 p, .con4 p, .con5 p, .con6 p, .con7 p, .con8 p{
+    font-size: 10px;
+    margin: 0 0;
+}
+p.telecomp{
+    font-size: 8.5px;
+}
+img.banking{
+    width: 35%;
+}
+
+.elevatediv{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.elevatep img{
+    width: 40%;
+
+}
+.elevatediv p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 255.58px;
+}
+
+
+.integratediv{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.integrateabt img{
+    width: 40%;
+    padding-left: 0px;
+    margin: 0;
+
+}
+.integratediv p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 255.58px;
+}
+.integrateabt h1{
+    transform: translate(0);
+}
+
+.innovatediv{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.innovatep img{
+    width: 40%;
+    padding-left: 0px;
+    margin: 0;
+
+}
+.innovatep p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 255.58px;
+}
+}
